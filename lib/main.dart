@@ -1,5 +1,4 @@
-import 'dart:js';
-
+import 'package:cryptoflow/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -37,7 +36,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       themeMode: ThemeMode.dark,
-      home: Center(),
+      home: HomeScreen(),
     );
   }
 }
